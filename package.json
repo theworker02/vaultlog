@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/vaultlog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vault HTML/Markdown log fragments safely for docs pipelines.",
+  "bin": {
+    "vaultlog": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/vaultlog.git"
+  },
+  "homepage": "https://theworker02.github.io/vaultlog/",
+  "keywords": [
+    "vault",
+    "log",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
